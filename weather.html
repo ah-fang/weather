@@ -1,0 +1,36 @@
+<meta charset="utf-8">
+<head>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<header>
+    <h1>Weather Site</h1>
+</header>
+<body>
+    <p id = "intro"> Introductory paragraph explaining what the site does</p>
+    <section class = "cities">
+        <div class = "box" id = "city-one">
+            Box with city info1
+        </div>
+        <div class = "box" id = "city-two">
+            Box with city info2
+        </div>
+        <div class = "box" id = "city-three">
+            Box with city info3
+        </div>
+        <div class = "box" id = "city-four">
+            Box with city info4
+        </div>
+    </section> 
+    <script>
+        
+        document.getElementsByClassName("box").addEventListener("click", displayBite);
+        function displayBite() {
+            //change the transparency of the image
+            //display on top of image the HighT, LowT, and %Rain
+            println("Hello, World!");
+        }
+    </script>
+</body>
+<footer>
+    Contact us with feedback, using the github generated email
+</footer>
